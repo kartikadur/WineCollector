@@ -1,0 +1,120 @@
+#map-container {
+	height: 500px;
+	border: 1px solid #461823;
+}
+
+.title {
+	background: #999;
+	color: #EEE;
+	font-weight: bold;
+}
+
+.bottle {
+	cursor: pointer;
+}
+
+.bottle .color, .title .color {
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	border: 1px solid #434343;
+}
+
+/* Codes Based on Variety */
+
+.sparkling {
+	background: #dddddd;
+}
+
+.dry-white {
+	background: #e7e8be;
+}
+
+.sweet-white {
+	background: #f6cc3c;
+}
+
+.rich-white {
+	background: #f6d689;
+}
+
+.rose {
+	background: #ec6768;
+}
+
+.light-red {
+	background: #bf223f;
+}
+
+.medium-red {
+	background: #7b1731;
+}
+
+.bold-red {
+	background: #491a24;
+}
+
+.dessert {
+	background: #b85826;
+}
+
+/* Codes Based on Color */
+
+.almost-clear {
+	background: #eeeed6;
+}
+
+.green-yellow {
+	background: #e4e5bb;
+}
+
+.platinum-yellow {
+	background: #ece7bd;
+}
+
+.pale-yellow {
+	background: #f4ebc0;
+}
+
+.pale-gold {
+	background: #f2d587;
+}
+
+.deep-gold {
+	background: #f6cc3c;
+}
+
+.pale-salmon {
+	background: #f2c9ad;
+}
+
+.deep-pink {
+	background: #eb6194;
+}
+
+.deep-salmon {
+	background: #e46461;
+}
+
+.pale-ruby {
+	background: #b82039;
+	color: #fff;
+}
+
+.deep-violet {
+	background: #791730;
+	color: #fff;
+}
+
+.deep-purple {
+	background: #461823;
+	color: #fff;
+}
+
+.tawny {
+	background: #b75725;
+	color: #fff;
+}

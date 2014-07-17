@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta lang="en"/>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>Wine Collector 1.0</title>
+		<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1 class="jumbotron">Wine Collector</h1>
+		</header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav navbar-left">
+					<li class="active">
+						<a href="#">Search Wines</a>
+					</li>
+					<li>
+						<a href="#">Add Wines</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section class="container-fluid clearfix">
+			<div id="wine-list" class="col-md-6 col-xs-12">
+				<ul id="collection" class="list-group">
+					<li class="list-group-item title clearfix">
+						<span class="color"></span>Wine Variety - Vineyard<span class="badge" style="float:right;">ABV</span><span class="badge" style="float:right;">Vintage</span>
+					</li>
+				</ul>
+			</div>
+			<div id="map-container" class="col-md-6 col-xs-12"></div>
+		</section>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJUazS89ehJa0FRI5sADOiPyx6z1hv9QU"></script>
+		<script src="js/gMaps.js"></script>
+	</body>
+</html>
