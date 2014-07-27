@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="WineSchema.xsl" ?>
 <!-- WineSchema.xsd -->
-
-<winecollection 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="WineSchema.xsd"
-    xmlns="WineSchema.xsd">
+<winecollection>
     <bottle>
         <producer>
             <vineyard>Kemblefield Estate Winery Ltd</vineyard>
@@ -38,7 +35,7 @@
             <temperature>43</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Sextant Wines</vineyard>
@@ -72,7 +69,7 @@
             <temperature>62</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Martin Ray Winery</vineyard>
@@ -104,7 +101,7 @@
             <temperature>54</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Henry's Drive Vignerons</vineyard>
@@ -140,7 +137,7 @@
             <temperature>62</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Bodegas Marqués de Cáceres</vineyard>
@@ -171,7 +168,7 @@
             <temperature>48</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Domaine de Guiot</vineyard>
@@ -188,9 +185,7 @@
             <type>Rose Wine</type>
             <color>Deep Salmon</color>
             <alcoholbyvolume>13.5</alcoholbyvolume>
-            <descriptors>
-                
-            </descriptors>
+            <descriptors> </descriptors>
         </wine>
         <serve>
             <best>Root Vegetables</best>
@@ -198,7 +193,7 @@
             <temperature>48</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Shafer Vineyards</vineyard>
@@ -215,9 +210,7 @@
             <type>Red Wine</type>
             <color>Deep Violet</color>
             <alcoholbyvolume>15.1</alcoholbyvolume>
-            <descriptors>
-                
-            </descriptors>
+            <descriptors> </descriptors>
         </wine>
         <serve>
             <best>Pungent Cheese</best>
@@ -225,7 +218,7 @@
             <temperature>48</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Guenoc &amp; Langtry Vineyards</vineyard>
@@ -242,9 +235,7 @@
             <type>White Wine</type>
             <color>Pale Gold</color>
             <alcoholbyvolume>13.5</alcoholbyvolume>
-            <descriptors>
-                
-            </descriptors>
+            <descriptors> </descriptors>
         </wine>
         <serve>
             <best>Fungi</best>
@@ -252,7 +243,7 @@
             <temperature>43</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>Chambers Rosewood Winery</vineyard>
@@ -269,9 +260,7 @@
             <type>Dessert</type>
             <color>Tawny</color>
             <alcoholbyvolume>18.0</alcoholbyvolume>
-            <descriptors>
-                
-            </descriptors>
+            <descriptors> </descriptors>
         </wine>
         <serve>
             <best>Chocolate</best>
@@ -279,7 +268,7 @@
             <temperature>68</temperature>
         </serve>
     </bottle>
-    
+
     <bottle>
         <producer>
             <vineyard>River Road Cellars</vineyard>
@@ -296,9 +285,7 @@
             <type>White Wine</type>
             <color>Pale Gold</color>
             <alcoholbyvolume>13.7</alcoholbyvolume>
-            <descriptors>
-                
-            </descriptors>
+            <descriptors> </descriptors>
         </wine>
         <serve>
             <best>Poultry</best>

@@ -3,34 +3,37 @@
  */
 
 (function(document, window, undefined) {
-	var $collection = $("#collection");
-	// console.log($collection);
-
-	$.ajax({
-		type : "GET",
-		url : "xml/WineSchema.xml",
-		dataType : "xml",
-		success : function(data) {
-			$(data).find('bottle').each(function(index) {
-				var listItem = "<li class='list-group-item bottle clearfix'"
-						+ "data-lat='" + $(this).find("producer").find("geocode").find("latitude").text() + "'"
-						+ "data-lon='" + $(this).find("producer").find("geocode").find("longitude").text() + "'"
-						+ ">"
-						+ "<span class='color " 
-						+ $(this).find("wine").find("color").text().toLowerCase().replace(" ","-")
-						+ "'></span>"
-						+ $(this).find("wine").find("variety").text()
-						+ " - "
-						+ $(this).find("producer").find("vineyard").text()
-						+ "<span class='badge' style='float:right;'>" + $(this).find("wine").find("alcoholbyvolume").text() + "%</span>"
-						+ "<span class='badge' style='float:right;'>" + $(this).find("vintage").text() + "</span>"
-						+ "</li>";
-				$(listItem).appendTo($collection);
-							  
-			});
-		},
-		error : function(response, textStatus, errorThrown) {
-			console.log(textStatus, errorThrown);
+	function loadXMLDoc(filename) {
+		if (window.ActiveXObject) {
+			xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} else {
+			xhttp = new XMLHttpRequest();
 		}
-	});
-})(document, window);
+		xhttp.open("GET", filename, false);
+		try {
+			xhttp.responseType = "msxml-document"
+		} catch(err) {
+		}// Helping IE11
+		xhttp.send("");
+		return xhttp.responseXML;
+	}
+
+	function displayResult() {
+		xml = loadXMLDoc("xml/WineSchema.xml");
+		xsl = loadXMLDoc("xml/WineSchema.xsl");
+		// code for IE
+		if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+			ex = xml.transformNode(xsl);
+			document.getElementById("collection").innerHTML = ex;
+		}
+		// code for Chrome, Firefox, Opera, etc.
+		else if (document.implementation && document.implementation.createDocument) {
+			xsltProcessor = new XSLTProcessor();
+			xsltProcessor.importStylesheet(xsl);
+			resultDocument = xsltProcessor.transformToFragment(xml, document);
+			document.getElementById("collection").appendChild(resultDocument);
+		}
+	}
+
+	displayResult();
+})(document, window); 
