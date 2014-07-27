@@ -20,7 +20,7 @@
             <alcoholbyvolume>13.0</alcoholbyvolume>
             <descriptors>
                 <acidity>Crisp</acidity>
-                <body>Light-Bodied</body>
+                <body>Light Bodied</body>
                 <fruit>Tropical Fruit</fruit>
                 <fruit>Citrus</fruit>
                 <herb>GooseBerry</herb>
@@ -53,7 +53,7 @@
             <color>Deep Purple</color>
             <alcoholbyvolume>14.5</alcoholbyvolume>
             <descriptors>
-                <body>Full-Bodied</body>
+                <body>Full Bodied</body>
                 <body>Finesse</body>
                 <fruit>Cherry</fruit>
                 <inorganic>Smoky</inorganic>
@@ -120,7 +120,7 @@
             <alcoholbyvolume>14.7</alcoholbyvolume>
             <descriptors>
                 <acidity>Soft</acidity>
-                <fruit>BlueBerry</fruit>
+                <fruit>Blueberry</fruit>
                 <fruit>Cherry</fruit>
                 <fruit>Fleshy</fruit>
                 <oak>Spicy</oak>
@@ -157,7 +157,7 @@
             <descriptors>
                 <acidity>Fresh</acidity>
                 <acidity>Crisp</acidity>
-                <body>Medium-Bodied</body>
+                <body>Medium Bodied</body>
                 <fruit>Strawberry</fruit>
                 <fruit>Cherry</fruit>
             </descriptors>
@@ -185,7 +185,14 @@
             <type>Rose Wine</type>
             <color>Deep Salmon</color>
             <alcoholbyvolume>13.5</alcoholbyvolume>
-            <descriptors> </descriptors>
+            <descriptors>
+                <acidity>Zesty</acidity>
+                <body>Medium Bodied</body>
+                <fruit>Raspberry</fruit>
+                <oak>Spicy</oak>
+                <spice>Pepper</spice>
+                <spice>Spicy</spice>
+            </descriptors>
         </wine>
         <serve>
             <best>Root Vegetables</best>
@@ -210,7 +217,19 @@
             <type>Red Wine</type>
             <color>Deep Violet</color>
             <alcoholbyvolume>15.1</alcoholbyvolume>
-            <descriptors> </descriptors>
+            <descriptors>
+                <body>Round</body>
+                <body>Full Bodied</body>
+                <fruit>Cherry (Red and Black)</fruit>
+                <fruit>Plum (Red and Black)</fruit>
+                <herb>Sage</herb>
+                <herb>Oregano</herb>
+                <inorganic>Smoky</inorganic>
+                <inorganic>Wet Earth</inorganic>
+                <oak>Smoky</oak>
+                <spice>Pepper</spice>
+                <style>Smoky</style>
+            </descriptors>
         </wine>
         <serve>
             <best>Pungent Cheese</best>
@@ -235,7 +254,14 @@
             <type>White Wine</type>
             <color>Pale Gold</color>
             <alcoholbyvolume>13.5</alcoholbyvolume>
-            <descriptors> </descriptors>
+            <descriptors>
+                <body>Rich</body>
+                <fruit>Apricot</fruit>
+                <fruit>Peach</fruit>
+                <fruit>Tropical Fruit</fruit>
+                <oak>Creamy</oak>
+                <yeast>Creamy</yeast>
+            </descriptors>
         </wine>
         <serve>
             <best>Fungi</best>
@@ -260,7 +286,14 @@
             <type>Dessert</type>
             <color>Tawny</color>
             <alcoholbyvolume>18.0</alcoholbyvolume>
-            <descriptors> </descriptors>
+            <descriptors>
+                <acidity>Brisk</acidity>
+                <body>Rich</body>
+                <fruit>Sweet</fruit>
+                <fruit>Molasses</fruit>
+                <fruit>Dates</fruit>
+                <tannin>Dry</tannin>
+            </descriptors>
         </wine>
         <serve>
             <best>Chocolate</best>
@@ -285,7 +318,16 @@
             <type>White Wine</type>
             <color>Pale Gold</color>
             <alcoholbyvolume>13.7</alcoholbyvolume>
-            <descriptors> </descriptors>
+            <descriptors>
+                <acidity>Bright</acidity>
+                <body>Full Bodied</body>
+                <fruit>Pear</fruit>
+                <fruit>Green Apple</fruit>
+                <fruit>Citrus</fruit>
+                <oak>Buttery</oak>
+                <oak>Vanilla</oak>
+                <yeast>Buttery</yeast>
+            </descriptors>
         </wine>
         <serve>
             <best>Poultry</best>
