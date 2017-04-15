@@ -3,3 +3,4 @@ Project for XML and AJAX class, built on a previous prototype built for a constr
 
 Allows for visualization of semantic data based on wine metadata
 
+preview: http://kartikadur.github.io/WineCollector/
